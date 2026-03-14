@@ -1,7 +1,7 @@
 import requests as req
 from bs4 import BeautifulSoup
 
-url = "https://news.ycombinator.com/"
+url = "https://api.gachpala.com/products"
 response = req.get(url)
 
 soup = BeautifulSoup(response.text, "html.parser")
